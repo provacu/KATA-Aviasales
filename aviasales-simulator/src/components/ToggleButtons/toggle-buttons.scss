@@ -1,0 +1,28 @@
+.toggle {
+    display: flex;
+    margin-bottom: 20px;
+    min-width: 502px;
+    min-height: 50px;
+
+
+    &__button {
+        flex: 1;
+        padding: 10px 15px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #DFE5EC;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+        &:hover {
+            background-color: #2196F3;
+            color: #fff;
+        }
+        
+        &:active {
+            background-color: #2196F3;
+            color: #fff;
+        }
+    }
+}

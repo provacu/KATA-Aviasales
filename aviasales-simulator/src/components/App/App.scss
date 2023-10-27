@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F7FA;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-template-areas: 
+    "logo logo"
+    "sidebar main"
+    "content content";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+.main__content {
+    grid-area: main;
+}

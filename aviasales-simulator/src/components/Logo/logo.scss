@@ -1,0 +1,14 @@
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    transition: transform 2s ease;
+  
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
