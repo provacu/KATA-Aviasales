@@ -1,7 +1,7 @@
 /* eslint-disable no-await-in-loop */
 
 const MAX_RETRIES = 3;
-const DELAY = 1000; // 1 second
+const DELAY = 1000;
 
 export const FETCH_TICKETS_START = 'FETCH_TICKETS_START';
 

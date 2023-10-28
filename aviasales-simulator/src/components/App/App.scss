@@ -21,3 +21,14 @@ body {
 .main__content {
     grid-area: main;
 }
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas: 
+        "logo logo"
+        "sidebar sidebar"
+        "main main"
+        "content content";
+        grid-template-columns: 1fr;
+    }
+}
